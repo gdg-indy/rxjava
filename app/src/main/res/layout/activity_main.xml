@@ -1,0 +1,28 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <!--<fragment-->
+        <!--android:id="@+id/click_fragment"-->
+        <!--android:name="com.test.rxjava.ClickFragment"-->
+        <!--tools:layout="@layout/fragment_click"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.test.rxjava.MainActivityFragment"
+        tools:layout="@layout/fragment_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <fragment
+        android:id="@+id/reactive_Fragment"
+        android:name="com.test.rxjava.ReactiveFragment"
+        tools:layout="@layout/fragment_reactive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
